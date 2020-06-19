@@ -1,0 +1,51 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+html {scroll-behavior: smooth;}
+.font-weight-800 {font-weight: 800;}
+.color-white {color: white;}
+.color-maroon {color: rgb(255, 73, 124);}
+.bg-maroon {background-color: rgb(255, 73, 124);}
+.color-blk {color: black;}
+.display-inline {display: inline-block;}
+.list-style {list-style: none;}
+.margin-li {margin: 0px 20px;}
+.text-decoration {text-decoration: none;}
+.bg-black {background-color: black;}
+.bg-white {background-color: white;}
+.bg-pink {background-image: url(../img/img_106.jpg);width: 100%;display: block;background-position: center;background-size: cover;background-repeat: no-repeat;height: 100%;}
+.logo-img {height: 83px;max-width: 100%;}
+.padding-10 {padding: 10px;}
+.padding-top {padding-top: 45px;font-family: 'Roboto Condensed', sans-serif;letter-spacing: 3px;}
+.font-17 {font-size: 17px}
+.font-29 {font-size: 29px;}
+.font-160px {font-size: 160px;}
+header {position: fixed;width: 100%;z-index: 9999999;box-shadow: 0px 6px 30px 7px #00000080;}
+.top-fixed {position: absolute;top: 102px;}
+.custom {font-size: 50px;color: rgb(255, 255, 255);margin: 70px 0px 0px 0px;}
+.top-text {position: relative;top: 110px;left: 15px;}
+.custom {animation: updown 2s ease infinite;}
+@keyframes updown {0% {transform: translateY(-8%);}50% {
+transform: translateY(8%);}100% {transform: translateY(-8%);}}
+.icn {font-size: 48px;border-radius: 100%;color: rgb(255, 255, 255);padding: 24px 32px;background-color:black;}
+footer {background-color: rgb(25, 31, 40);}
+.pad {padding: 0px 20px;}
+#none {display: none;}
+.span-margin {margin: 0px 20px;}
+.image-set {display: block;width: 100%;}
+.img-wi {display: block;width: 100%;}
+.none {display: none;}
+.hover:hover {color: rgb(255, 73, 124);text-decoration: none;}
+.bg {background: rgba(128, 128, 128, 0.27);border: none;}
+.top {border-radius: 100%;position: fixed;top: 466px;right: 6px;box-shadow: 0px 8px 32px -3px black;}
+@media (max-width: 1024px) {.head-list {display: none;}.none {display: block;position: absolute;right: 0;
+top: 16px;cursor: pointer;z-index: 99999999;}
+#none:checked~header .head-list {display: block;}
+.display {display: none;}
+.display-inline {display: block;}
+.margin-li {margin: 15px 0px;}
+.font-160px {font-size: 72px;}
+.deve {position: relative;left: -23px;top: 0;}
+.bg-pink {background-image: url(../img/img_106.jpg);width: 100%;display: block;background-position: center;background-size: cover;background-repeat: no-repeat;height: 100%}
+.span-margin {margin: 0px 20px;}
+.scroll:active .spy{
+	background-color:white;
+}	
